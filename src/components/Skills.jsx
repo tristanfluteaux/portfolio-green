@@ -1,4 +1,4 @@
-import { Grid, Cell, ProgressBar } from "react-mdl";
+import { ProgressBar } from "react-mdl";
 import html from '../assets/html-logo.png';
 import css from '../assets/css-logo.png'
 import javascript from '../assets/javascript-logo.png'
