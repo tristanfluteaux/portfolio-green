@@ -1,0 +1,25 @@
+/*  Project page */
+
+.category-tabs {
+    margin-top: 20px;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 400px;
+  }
+
+  @media screen and (max-width: 576px) {
+    .category-tabs {
+        margin-top: 20px;
+      }
+      
+      .project-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+      } 
+  }

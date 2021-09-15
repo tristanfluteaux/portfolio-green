@@ -1,0 +1,55 @@
+/* About Me */
+
+.about-right {
+    background: linear-gradient(to right, rgba(36,31,31,1) 0%, rgba(36,31,31,1) 32%, rgba(74,71,70,1) 100%);
+    color: white;
+    padding: 2em;
+  }
+  
+  .about-main {
+    background: #DCE35B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #45B649, #DCE35B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #45B649, #DCE35B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 20vh;
+  }
+  
+  .about-main-dm {
+    background: #52c234;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 20vh;
+  }
+
+  .about-me {
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+  }
+
+  .about-me p {
+    font-size: 20px;
+    text-align: justify;
+    width: 60%;
+    margin-right: 6%;
+    margin-bottom: 50px;
+  }
+
+  .text {
+  font-size: 17px;
+  }
+
+  @media screen and (max-width: 576px) {
+    .about-me {
+      display: flex;
+      justify-content: left;
+      align-items: left;
+    }
+
+    .about-me p {
+      font-size: 20px;
+      text-align: center;
+      width: 100%;
+      /* margin-right: 6%; */
+      margin-bottom: 50px;
+    }
+  }
