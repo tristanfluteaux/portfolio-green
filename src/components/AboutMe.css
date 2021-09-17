@@ -38,6 +38,10 @@
   font-size: 17px;
   }
 
+  .experience-title {
+    
+  }
+
   @media screen and (max-width: 576px) {
     .about-me {
       display: flex;

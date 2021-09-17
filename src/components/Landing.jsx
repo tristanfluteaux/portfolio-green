@@ -26,7 +26,7 @@ const Landing = ({ gradientColor }) => {
                        />
                        <div className='banner-text'>
                             <h1 className='name'>Tristan Fluteaux</h1>
-                            <h1>Développeur web Full Stack <span style={{color: 'yellow'}}>{loop}</span></h1>
+                            <h1>Développeur web FullStack <span style={{color: 'yellow'}}>{loop}</span></h1>
    
 
                             <hr/>
