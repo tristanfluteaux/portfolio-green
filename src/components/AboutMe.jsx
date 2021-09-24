@@ -30,14 +30,14 @@ const AboutMe = ({gradientColor}) => {
                 <Cell className='about-right' col={8}>
                         <h2>Présentation</h2>
                     <div className='about-me'>
-                        <p>Ancien technicien de maintenance adepte des technologies de régulation et de fonctionnement des systèmes de climatisations et d'électricité , passionné par le monde du numérique j'ai décidé de me lancer dans une reconversion professionnelle en tant que développeur web FullStack Js au sein de la Wild Code School.</p>
+                        <p>Ancien technicien de maintenance adepte des technologies de régulation et de fonctionnement des systèmes de climatisation et d'électricité , passionné par le monde du numérique j'ai décidé de me lancer dans une reconversion professionnelle en tant que développeur web FullStack Js au sein de la Wild Code School.</p>
                     </div>
                     <hr style={{borderTop: '3px solid #fff'}}/>
                     <h2>Formations</h2>
                     <Education
                     startYear={2021}
                     school={'Wild Code School (remote)'}
-                    description={'HTML / CSS, JavaScript, React, NodeJs, mySql, Express, Méthodes agiles (scrum), Git, Github'}
+                    description={'HTML / CSS, JavaScript, React, NodeJs, mySql, Express, Méthodes agiles (scrum), Git, Github, Figma.'}
                     />
 
                     <Education
@@ -51,12 +51,12 @@ const AboutMe = ({gradientColor}) => {
                     <Experience
                     startYear={2021}
                     job={'Wild Code School (remote)'}
-                    jobDescription={`WeCode : création d'un site vitrine responsive en rapport au monde du numérique en html et css || Kokomo : création d'une application responsive de cocktail avec React et NodeJs en utilisant une consommation api REST et organisation du projet avec les méthodes agiles (scrum, trello), création de maquette via Figma || StarLove : création d un site de rencontre intergalactique en 35h lors d'un hackathon en suivant les méthodes agiles (scrum) sur React avec une consommation d'api REST || BAC : Création d'un site sur React pour le client réel La Boîte d'à côté, entreprise à but d'emploi, gestion de la relation client et organisation du projet via les méthodesagiles (scrum) avec modélisation et gestion de la base de données afin d ajouter une connexion admin pour modifier le contenu du site.`}
+                    jobDescription={`WeCode : Création d'un site vitrine responsive en rapport au monde du numérique en html, css et JavaScript  ||  Kokomo : Création d'une application responsive de cocktail avec React et NodeJs en utilisant une consommation api REST et organisation du projet avec les méthodes agiles (scrum, trello), création de maquette via Figma  ||  StarLove : Création d'un site de rencontre intergalactique en 35h lors d'un hackathon en suivant les méthodes agiles (scrum) sur React avec une consommation d'api REST  ||  BAC : Création d'un site sur React pour le client réel La Boîte d'à côté, entreprise à but d'emploi, gestion de la relation client et organisation du projet via les méthodes agiles (scrum) avec modélisation et gestion de la base de données afin d ajouter une connexion admin pour modifier le contenu du site.`}
                     />
                     <Experience
                     startYear={'2016 - 2021'}
                     job={'Sodexo Energie et Maintenance (technicien principal)'}
-                    jobDescription={'Relation cient || Suivi de projet et de travaux || Force de conseil et de proposition.'}
+                    jobDescription={'Relation cient  ||  Suivi de projet et de travaux  ||  Force de conseil et de proposition.'}
                     />
                     <hr style={{borderTop: '3px solid #fff'}}/>
                     <h2>Compétences</h2>
@@ -65,6 +65,17 @@ const AboutMe = ({gradientColor}) => {
                     progress={0}
                     buffer={0}
                     />
+
+                    <hr style={{borderTop: '3px solid #fff'}}/>
+                    <h2>Mes centres d'intérêt</h2>
+                    <div className='about-me'>
+                        <p>Musique : Guitariste et Bassiste</p>
+                        <p>Jeux vidéo : Aventure, RPG, Multijoueur, Survival</p>
+                        <p>Cinématographie : Science-Fiction, Animation, Horreur, Aventure, AutoBio musicale</p>
+                        <p>Informatique : Enregistrement et composition de musique MAO</p> 
+                        
+                    </div>
+
                 </Cell>
             </Grid>
             

@@ -24,7 +24,7 @@ const Head = ({gradientColor, setGradientColor}) => {
                 <a href="#about-main">A propos de moi</a>
             </Navigation>
         </Header>
-        <Drawer title={<i className='bi bi-controller' aria-hidden='true' style={{fontSize: '50px', }}/>}>
+        <Drawer title={<i className='bi bi-controller' aria-hidden='true' style={{fontSize: '50px', }} onClick={HandleClickColor}/>}>
             <Navigation>
                 <a href="#/">Home</a>
                 <a href="#section-project">Projet</a>
