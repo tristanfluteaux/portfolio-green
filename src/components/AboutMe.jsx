@@ -37,7 +37,7 @@ const AboutMe = ({gradientColor}) => {
                     <Education
                     startYear={2021}
                     school={'Wild Code School (remote)'}
-                    description={'HTML / CSS, JavaScript, React, NodeJs, mySql, Express, Méthodes agiles (scrum), Git, Github, Figma.'}
+                    description={'HTML / CSS, JavaScript, React, Node.Js, MySql, Express, Méthodes agiles (scrum), Git, Github, Figma.'}
                     />
 
                     <Education
