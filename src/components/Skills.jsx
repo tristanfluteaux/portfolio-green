@@ -7,6 +7,9 @@ import node from '../assets/node-logo.png'
 import mysql from '../assets/mysql-logo.png'
 import express from '../assets/express.png'
 import git from '../assets/git-logo.png'
+import figma from '../assets/figma2.png'
+import trello from '../assets/trello.png'
+
 
 import './AboutMe.css';
 
@@ -52,6 +55,16 @@ const Skills = (props) => {
                     <div style={{margin : '20px', textAlign: 'center'}}>
                         <h2>Git</h2>
                         <img src={git} alt='git logo' style={{width: '75px'}} />
+                        <ProgressBar  style={{width: '100%', marginTop: '10px'}} progress={props.progress} buffer={props.buffer} />
+                    </div>
+                    <div style={{margin : '20px', textAlign: 'center'}}>
+                        <h2>Figma</h2>
+                        <img src={figma} alt='figma logo' style={{width: '75px'}} />
+                        <ProgressBar  style={{width: '100%', marginTop: '10px'}} progress={props.progress} buffer={props.buffer} />
+                    </div>
+                    <div style={{margin : '20px', textAlign: 'center'}}>
+                        <h2>Scrum</h2>
+                        <img src={trello} alt='trello logo' style={{width: '75px'}} />
                         <ProgressBar  style={{width: '100%', marginTop: '10px'}} progress={props.progress} buffer={props.buffer} />
                     </div>
                 

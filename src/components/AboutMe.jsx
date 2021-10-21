@@ -13,7 +13,7 @@ const AboutMe = ({gradientColor}) => {
                     <div style={{textAlign: 'center'}}>
                     </div>
                     <h2 style={{paddingTop: '2em'}}>Tristan Fluteaux</h2>
-                    <h4 style={{color: '#833fb2'}}>Web Developper</h4>
+                    <h4 style={{color: '#833fb2'}}>Fullstack Web Developper</h4>
                     <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
                     <p></p>
                     <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
@@ -24,13 +24,13 @@ const AboutMe = ({gradientColor}) => {
                     <h5>Phone</h5>
                     <p className='text'>06.89.79.78.45</p>
                     <hr style={{borderTop: '3px solid #833fb2', width: '50%'}} />
-                    <h5>Langage</h5>
+                    <h5>Langages</h5>
                     <p className='text'>Français / Anglais</p>
                 </Cell>
                 <Cell className='about-right' col={8}>
                         <h2>Présentation</h2>
                     <div className='about-me'>
-                        <p>Ancien technicien de maintenance adepte des technologies de régulation et de fonctionnement des systèmes de climatisation et d'électricité , passionné par le monde du numérique j'ai décidé de me lancer dans une reconversion professionnelle en tant que développeur web FullStack Js au sein de la Wild Code School.</p>
+                        <p>Ancien technicien de maintenance passionné par le monde du numérique, stimulé par de nouveaux défis et animé par l’envie de rejoindre un univers qui depuis toujours me passionne, j’ai décidé d’entreprendre une reconversion professionnelle en tant que Développeur web spécialisé JS au sein de la Wild Code School.</p>
                     </div>
                     <hr style={{borderTop: '3px solid #fff'}}/>
                     <h2>Formations</h2>
@@ -43,19 +43,39 @@ const AboutMe = ({gradientColor}) => {
                     <Education
                     startYear={'2013 - 2015'}
                     school={'CFI de Paris Gambetta'}
-                    description={'BTS Fluide energie Environnement'}
+                    description={'BTS Fluides energies Environnement'}
                     />
                 
                     <hr style={{borderTop: '3px solid #fff'}}/>
-                    <h2>Experience</h2>
+                    <h2>Experiences</h2>
                     <Experience
-                    startYear={2021}
-                    job={'Wild Code School (remote)'}
-                    jobDescription={`WeCode : Création d'un site vitrine responsive en rapport au monde du numérique en html, css et JavaScript  ||  Kokomo : Création d'une application responsive de cocktail avec React et NodeJs en utilisant une consommation api REST et organisation du projet avec les méthodes agiles (scrum, trello), création de maquette via Figma  ||  StarLove : Création d'un site de rencontre intergalactique en 35h lors d'un hackathon en suivant les méthodes agiles (scrum) sur React avec une consommation d'api REST  ||  BAC : Création d'un site sur React pour le client réel La Boîte d'à côté, entreprise à but d'emploi, gestion de la relation client et organisation du projet via les méthodes agiles (scrum) avec modélisation et gestion de la base de données afin d ajouter une connexion admin pour modifier le contenu du site.`}
+                    startYear={'2021'}
+                    job={`La Boîte d'à Côté - Développeur web Fullstack`}
+                    jobDescription={`Création d'un site sur React pour le client réel La Boîte d'à côté, entreprise à but d'emploi,  gestion de la relation client et organisation du projet via les méthodes agiles (scrum) avec modélisation de la base de données et configuration d'un serveur back-end sur Node.Js afin d'ajouter une connexion admin pour modifier le contenu du site depuis un interface.`}
+                    />
+                    <Experience
+                    startYear={'2021'}
+                    job={'Hackathon Game Jam'}
+                    jobDescription={`Création d'un jeu vidéo intéractif 2D en 45h en équipe sur Unity avec le langage C# et gestion du projet via GitHub`}
+                    />
+                    <Experience
+                    startYear={'2021'}
+                    job={'Hackathon StarLove'}
+                    jobDescription={`Création d'un site de rencontre intergalactique sur le thème de star wars en 35h en suivant les méthodes agiles (scrum) sur React avec une consommation d'api REST`}
+                    />
+                    <Experience
+                    startYear={'2021'}
+                    job={'Kokomo - Développeur web front-end'}
+                    jobDescription={`Création d'une application responsive de cocktail avec React et NodeJs en utilisant une consommation d'api REST et organisation du projet avec les méthodes agiles (scrum)`}
+                    />
+                    <Experience
+                    startYear={'2021'}
+                    job={'WeCode - Développeur web front-end'}
+                    jobDescription={`Création d'un site vitrine responsive en rapport au monde du numérique en HTML, CSS et JavaScript`}
                     />
                     <Experience
                     startYear={'2016 - 2021'}
-                    job={'Sodexo Energie et Maintenance (technicien principal)'}
+                    job={'Sodexo Energie et Maintenance - technicien principal'}
                     jobDescription={'Relation cient  ||  Suivi de projet et de travaux  ||  Force de conseil et de proposition.'}
                     />
                     <hr style={{borderTop: '3px solid #fff'}}/>
