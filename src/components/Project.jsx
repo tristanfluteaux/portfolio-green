@@ -89,10 +89,11 @@ class Project extends Component {
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cd6baedb-fdd4-435e-b96d-43b11622a285/dd2ceku-a9ce3d71-d601-4522-b3a4-6af3aa847c46.png/v1/fill/w_622,h_350,q_70,strp/pokeball_by_quickboomcg_dd2ceku-350t.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvY2Q2YmFlZGItZmRkNC00MzVlLWI5NmQtNDNiMTE2MjJhMjg1XC9kZDJjZWt1LWE5Y2UzZDcxLWQ2MDEtNDUyMi1iM2E0LTZhZjNhYTg0N2M0Ni5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.0bs7XnOMdXUB9m7WQzMaD2XOM5VCPbv1rp54-RJrvmQ) center / cover'}}>Pokedex</CardTitle>
                     <CardText>
-                    Projet Geek : Application Pokémon sur React (en développement)
+                    Projet Geek : Application Pokémon sur React
                     </CardText>
                     <CardActions border>
                     <Button href='https://github.com/tristanfluteaux/my-pokedex' colored>Github</Button>
+                    <Button href='https://et-pokedex.netlify.app/' colored>Link</Button>
                     <Button colored>Link</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
