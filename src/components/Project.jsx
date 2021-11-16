@@ -94,7 +94,6 @@ class Project extends Component {
                     <CardActions border>
                     <Button href='https://github.com/tristanfluteaux/my-pokedex' colored>Github</Button>
                     <Button href='https://et-pokedex.netlify.app/' colored>Link</Button>
-                    <Button colored>Link</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                     </CardMenu>

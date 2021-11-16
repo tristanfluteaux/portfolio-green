@@ -50,6 +50,11 @@ const AboutMe = ({gradientColor}) => {
                     <h2>Experiences</h2>
                     <Experience
                     startYear={'2021'}
+                    job={`Quavy - Développeur web Front end React`}
+                    jobDescription={`Développement de l'application Quavy sur React/Nextjs. Plateforme pouvant receuillir des vidéos de la plateforme Twitch, de les éditer pour ensuite les republier sur différents réseaux sociaux automatiquement`}
+                    />
+                    <Experience
+                    startYear={'2021'}
                     job={`La Boîte d'à Côté - Développeur web Fullstack`}
                     jobDescription={`Création d'un site sur React pour le client réel La Boîte d'à côté, entreprise à but d'emploi,  gestion de la relation client et organisation du projet via les méthodes agiles (scrum) avec modélisation de la base de données et configuration d'un serveur back-end sur Node.Js afin d'ajouter une connexion admin pour modifier le contenu du site depuis un interface.`}
                     />
@@ -76,7 +81,7 @@ const AboutMe = ({gradientColor}) => {
                     <Experience
                     startYear={'2016 - 2021'}
                     job={'Sodexo Energie et Maintenance - technicien principal'}
-                    jobDescription={'Relation cient  ||  Suivi de projet et de travaux  ||  Force de conseil et de proposition.'}
+                    jobDescription={'Relation cient, suivi de projet et de travaux, force de conseil et de proposition.'}
                     />
                     <hr style={{borderTop: '3px solid #fff'}}/>
                     <h2>Compétences</h2>
