@@ -9,6 +9,8 @@ import express from '../assets/express.png'
 import git from '../assets/git-logo.png'
 import figma from '../assets/figma2.png'
 import trello from '../assets/trello.png'
+import next from '../assets/next-logo.png'
+import tailwind from '../assets/tailwind.png'
 
 
 import './AboutMe.css';
@@ -38,6 +40,11 @@ const Skills = (props) => {
                         <ProgressBar  style={{width: '100%', marginTop: '10px'}} progress={props.progress} buffer={props.buffer} />
                     </div>
                     <div style={{margin : '20px' , textAlign: 'center'}}>
+                        <h2>Next</h2>
+                        <img src={next} alt='react logo' style={{width: '85px',}} />
+                        <ProgressBar  style={{width: '100%', marginTop: '10px'}} progress={props.progress} buffer={props.buffer} />
+                    </div>
+                    <div style={{margin : '20px' , textAlign: 'center'}}>
                         <h2>NodeJs</h2>
                         <img src={node} alt='node logo' style={{width: '130px', color: 'white'}} />
                         <ProgressBar  style={{width: '100%', marginTop: '10px', textAlign: 'center'}} progress={props.progress} buffer={props.buffer} />
@@ -50,6 +57,11 @@ const Skills = (props) => {
                     <div style={{margin : '20px', textAlign: 'center'}}>
                         <h2>Express</h2>
                         <img src={express} alt='express logo' style={{width: '75px'}} />
+                        <ProgressBar  style={{width: '100%', marginTop: '10px'}} progress={props.progress} buffer={props.buffer} />
+                    </div>
+                    <div style={{margin : '20px', textAlign: 'center'}}>
+                        <h2>Tailwind</h2>
+                        <img src={tailwind} alt='express logo' style={{width: '75px'}} />
                         <ProgressBar  style={{width: '100%', marginTop: '10px'}} progress={props.progress} buffer={props.buffer} />
                     </div>
                     <div style={{margin : '20px', textAlign: 'center'}}>
