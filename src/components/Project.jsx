@@ -55,7 +55,7 @@ class Project extends Component {
             </Card>
             {/* Project game */}
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://media-exp1.licdn.com/dms/image/sync/C4E27AQHQaqQ12Y5C-w/articleshare-shrink_800/0/1634807815014?e=1635321600&v=beta&t=GQTVVfwUFuS46uDO9DvBP_xEN-oJW0sPdJNe3kw7JLw'}}>Chicken nuggets</CardTitle>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn.dribbble.com/users/277378/screenshots/6038397/chickenloopdribbble_still_2x.gif?compress=1&resize=400x300'}}>Chicken nuggets</CardTitle>
                 <CardText>
                     Hackathon Game Jam : jeu vidéo 2D pendant 45h en équipe créer sur Unity en langage C#
                 </CardText>
