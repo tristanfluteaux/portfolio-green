@@ -64,6 +64,11 @@ const AboutMe = ({ gradientColor }) => {
           <hr style={{ borderTop: "3px solid #fff" }} />
           <h2>Experiences</h2>
           <Experience
+            startYear={"2022"}
+            job={`Akka Technologies - Consultant Développeur web fullstack`}
+            jobDescription={`Consultant d'études dans le développement web front et back end`}
+          />
+          <Experience
             startYear={"2021"}
             job={`Quavy - Développeur web Front end React`}
             jobDescription={`Développement de l'application Quavy sur React/Nextjs. Plateforme pouvant receuillir des vidéos de la plateforme Twitch, de les éditer pour ensuite les republier sur différents réseaux sociaux automatiquement`}
