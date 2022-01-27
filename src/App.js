@@ -2,7 +2,8 @@ import AboutMe from "./components/AboutMe";
 import Project from "./components/Project";
 import Head from "./components/Head";
 import Landing from "./components/Landing";
-import { useEffect, useState } from "react";
+import { useState } from "react";
+import './App.css'
 
 
 function App() {

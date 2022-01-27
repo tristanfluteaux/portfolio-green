@@ -195,6 +195,31 @@ class Project extends Component {
             </CardActions>
             <CardMenu style={{ color: "#fff" }}></CardMenu>
           </Card>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "#fff",
+                height: "176px",
+                background:
+                  "url(https://images5.fanpop.com/image/photos/28000000/Guitar-guitar-28014994-1920-1200.jpg) center / cover",
+              }}
+            >
+              Get Volumes
+            </CardTitle>
+            <CardText>E commerce de guitare sur React et Node.js et MySql</CardText>
+            <CardActions border>
+              <Button
+                href="https://github.com/tristanfluteaux/getVolumes-front/tree/main/getvolumes-front"
+                colored
+              >
+                Github Front
+              </Button>
+              <Button href="https://github.com/tristanfluteaux/getVolumes-back" colored>
+                Github Back
+              </Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}></CardMenu>
+          </Card>
         </div>
       );
     }
