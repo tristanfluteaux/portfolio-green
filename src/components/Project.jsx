@@ -201,12 +201,12 @@ class Project extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://images5.fanpop.com/image/photos/28000000/Guitar-guitar-28014994-1920-1200.jpg) center / cover",
+                  "url(https://www.businesscoot.com/uploads/study_main_image/227.webp) center / cover",
               }}
             >
               Get Volumes
             </CardTitle>
-            <CardText>E commerce de guitare sur React et Node.js et MySql</CardText>
+            <CardText>E commerce de guitare sur React et Node.js et MySql (en cour de réalisation)</CardText>
             <CardActions border>
               <Button
                 href="https://github.com/tristanfluteaux/getVolumes-front/tree/main/getvolumes-front"
