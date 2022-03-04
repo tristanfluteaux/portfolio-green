@@ -66,7 +66,7 @@ const AboutMe = ({ gradientColor }) => {
           <Experience
             startYear={"2022"}
             job={`Akka Technologies - Consultant Développeur web fullstack`}
-            jobDescription={`Projet interne : VALIDATe - dev fullstack react | node.js`}
+            jobDescription={`Projet interne : VALIDATe - developpeur fullstack react, redux | node.js    Utilisation d'IA en python pour identifier des images ou du texte`}
           />
           <Experience
             startYear={"2021"}
