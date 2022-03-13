@@ -43,13 +43,17 @@ const AboutMe = ({ gradientColor }) => {
           <hr style={{ borderTop: "3px solid #fff" }} />
           <h2>Formations</h2>
           <Education
+            startYear={"2022"}
+            school={"Wild Code School"}
+            description={"Passage prochain d'une certification Bac +2 Développeur web et web mobile"}
+          />
+          <Education
             startYear={2021}
             school={"Wild Code School (remote)"}
             description={
               "HTML / CSS, JavaScript, React, Node.Js, MySql, Express, Méthodes agiles (scrum), Git, Github, Figma."
             }
           />
-
           <Education
             startYear={"2013 - 2015"}
             school={"CFI de Paris Gambetta"}
