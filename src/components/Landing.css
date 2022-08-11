@@ -49,6 +49,7 @@
 .avatar-img {
   height: 250px;
   padding-top: 10em;
+  border-radius: 30%;
 }
 
 .banner-text {

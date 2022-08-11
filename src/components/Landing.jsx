@@ -1,6 +1,6 @@
 import { Grid, Cell } from "react-mdl";
 import Typewriter from "typewriter-effect";
-import profilPic from "../assets/goodp.png";
+import profilPic from "../assets/received_407430107055200.jpeg";
 
 import "./Landing.css";
 

@@ -17,16 +17,10 @@ const AboutMe = ({ gradientColor }) => {
           <h2 style={{ paddingTop: "2em" }}>Tristan Fluteaux</h2>
           <h4 style={{ color: "#833fb2" }}>Fullstack Web Developper</h4>
           <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-          <p></p>
-          <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           <h5>Location</h5>
           <p className="text">Meaux, proche Paris</p>
-          <h5>Email</h5>
-          <p className="text">tristan.fluteaux@gmail.com</p>
-          <h5>Phone</h5>
-          <p className="text">06.89.79.78.45</p>
           <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
-          <h5>Langages</h5>
+          <h5>Langues</h5>
           <p className="text">Français / Anglais</p>
         </Cell>
         <Cell className="about-right" col={8}>
@@ -45,7 +39,9 @@ const AboutMe = ({ gradientColor }) => {
           <Education
             startYear={"2022"}
             school={"Wild Code School"}
-            description={"Passage prochain d'une certification Bac +2 Développeur web et web mobile"}
+            description={
+              "Passage prochain d'une certification Bac +2 Développeur web et web mobile"
+            }
           />
           <Education
             startYear={2021}
@@ -67,6 +63,16 @@ const AboutMe = ({ gradientColor }) => {
 
           <hr style={{ borderTop: "3px solid #fff" }} />
           <h2>Experiences</h2>
+          <Experience
+            startYear={"2022"}
+            job={`Vroomly - Développeur Fullstack React / Django`}
+            jobDescription={``}
+          />
+          <Experience
+            startYear={"2022"}
+            job={`Aphilia - Développeur React`}
+            jobDescription={`Développement d'applications dans le secteur de la restauration et l'hôtelerie`}
+          />
           <Experience
             startYear={"2022"}
             job={`Akka Technologies - Consultant Développeur web fullstack`}
